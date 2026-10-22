@@ -445,7 +445,12 @@ layout: default
     </div>
     <div class="col-span-5 flex flex-col items-center">
       <div class="tech-card p-2 bg-slate-900/90 border border-slate-700/60 shadow-xl overflow-hidden w-full max-h-52 flex flex-col justify-center">
-        <img src="/img/p5_1.png" alt="eUIDEII Toolchain" class="w-full max-h-44 rounded object-contain border border-slate-800" />
+        <ZoomImg
+          src="/img/p5_1.png"
+          alt="eUIDEII Toolchain"
+          title="eUIDEII 編譯環境與 Toolchain 運作展示"
+          imgClass="w-full max-h-44 rounded object-contain border border-slate-800"
+        />
         <span class="block mt-1.5 text-center text-[10px] font-mono text-slate-400">
           eUIDEII 編譯環境與 Toolchain 運作展示
         </span>
@@ -513,13 +518,23 @@ layout: default
     </div>
     <div class="col-span-6 flex gap-3 items-stretch">
       <div class="tech-card p-2 flex-1 flex flex-col justify-between max-h-52">
-        <img src="/img/p6_1.png" alt="NuWriter Architecture" class="w-full h-38 object-contain rounded border border-slate-800 bg-slate-950/60" />
+        <ZoomImg
+          src="/img/p6_1.png"
+          alt="NuWriter Architecture"
+          title="NuWriter 燒錄主介面與功能架構"
+          imgClass="w-full h-38 object-contain rounded border border-slate-800 bg-slate-950/60"
+        />
         <span class="block mt-1 text-center text-[10px] font-mono text-slate-400">
           NuWriter 燒錄主介面與功能架構
         </span>
       </div>
       <div class="tech-card p-2 w-40 flex flex-col justify-between flex-shrink-0 max-h-52">
-        <img src="/img/p6_2.png" alt="NuWriter IC Dialog" class="w-full h-38 object-contain rounded border border-slate-800 bg-slate-950/60" />
+        <ZoomImg
+          src="/img/p6_2.png"
+          alt="NuWriter IC Dialog"
+          title="多晶片燒錄支援對話框"
+          imgClass="w-full h-38 object-contain rounded border border-slate-800 bg-slate-950/60"
+        />
         <span class="block mt-1 text-center text-[10px] font-mono text-slate-400">
           多晶片燒錄支援對話框
         </span>
@@ -582,13 +597,23 @@ layout: default
     </div>
     <div class="col-span-6 space-y-2">
       <div class="tech-card p-1.5">
-        <img src="/img/p7_1.png" alt="Gaming Mouse AP Main" class="w-full h-26 object-contain rounded border border-slate-800 bg-slate-950/60" />
+        <ZoomImg
+          src="/img/p7_1.png"
+          alt="Gaming Mouse AP Main"
+          title="滑鼠按鍵配置與 DPI / 性能微調主介面"
+          imgClass="w-full h-26 object-contain rounded border border-slate-800 bg-slate-950/60"
+        />
         <span class="block mt-0.5 text-center text-[10px] font-mono text-slate-400">
           滑鼠按鍵配置與 DPI / 性能微調主介面
         </span>
       </div>
       <div class="tech-card p-1.5">
-        <img src="/img/p7_2.png" alt="Gaming Mouse AP Macro / RGB" class="w-full h-26 object-contain rounded border border-slate-800 bg-slate-950/60" />
+        <ZoomImg
+          src="/img/p7_2.png"
+          alt="Gaming Mouse AP Macro / RGB"
+          title="動態巨集 (Macro) 編輯器與 RGB 燈光設定"
+          imgClass="w-full h-26 object-contain rounded border border-slate-800 bg-slate-950/60"
+        />
         <span class="block mt-0.5 text-center text-[10px] font-mono text-slate-400">
           動態巨集 (Macro) 編輯器與 RGB 燈光設定
         </span>
@@ -654,19 +679,43 @@ layout: default
     <!-- 4 Screenshots (h-20 perfectly accommodates all images without any cut-off) -->
     <div class="grid grid-cols-12 gap-2.5 items-center">
       <div class="col-span-3 tech-card p-1 flex flex-col items-center">
-        <img src="/img/p8_1.png" alt="App UI 1" class="h-20 object-contain rounded" />
+        <ZoomImg
+          src="/img/p8_1.png"
+          alt="App UI 1"
+          title="APP 天窗控制首頁"
+          imgClass="h-20 object-contain rounded"
+          containerClass="flex justify-center"
+        />
         <span class="text-[9px] font-mono text-slate-400 mt-0.5">APP 天窗控制首頁</span>
       </div>
       <div class="col-span-3 tech-card p-1 flex flex-col items-center">
-        <img src="/img/p8_2.png" alt="App UI 2" class="h-20 object-contain rounded" />
+        <ZoomImg
+          src="/img/p8_2.png"
+          alt="App UI 2"
+          title="分區明暗微調介面"
+          imgClass="h-20 object-contain rounded"
+          containerClass="flex justify-center"
+        />
         <span class="text-[9px] font-mono text-slate-400 mt-0.5">分區明暗微調介面</span>
       </div>
       <div class="col-span-3 tech-card p-1 flex flex-col items-center">
-        <img src="/img/p8_3.png" alt="Hardware 1" class="h-20 object-contain rounded" />
+        <ZoomImg
+          src="/img/p8_3.png"
+          alt="Hardware 1"
+          title="PDLC 智慧調光玻璃展示"
+          imgClass="h-20 object-contain rounded"
+          containerClass="flex justify-center"
+        />
         <span class="text-[9px] font-mono text-slate-400 mt-0.5">PDLC 智慧調光玻璃展示</span>
       </div>
       <div class="col-span-3 tech-card p-1 flex flex-col items-center">
-        <img src="/img/p8_4.png" alt="Hardware 2" class="h-20 object-contain rounded" />
+        <ZoomImg
+          src="/img/p8_4.png"
+          alt="Hardware 2"
+          title="車載控制微控制器板卡"
+          imgClass="h-20 object-contain rounded"
+          containerClass="flex justify-center"
+        />
         <span class="text-[9px] font-mono text-slate-400 mt-0.5">車載控制微控制器板卡</span>
       </div>
     </div>
@@ -734,7 +783,12 @@ layout: default
     </div>
     <div class="col-span-5 flex flex-col items-center">
       <div class="tech-card p-2 bg-slate-900/90 border border-slate-700/60 shadow-xl overflow-hidden w-full max-h-52 flex flex-col justify-center">
-        <img src="/img/p9_1.png" alt="Active Stylus Simulator" class="w-full max-h-44 rounded object-contain border border-slate-800" />
+        <ZoomImg
+          src="/img/p9_1.png"
+          alt="Active Stylus Simulator"
+          title="主動筆模擬器 AP 偵錯與暫存器監控介面"
+          imgClass="w-full max-h-44 rounded object-contain border border-slate-800"
+        />
         <span class="block mt-1.5 text-center text-[10px] font-mono text-slate-400">
           主動筆模擬器 AP 偵錯與暫存器監控介面
         </span>
