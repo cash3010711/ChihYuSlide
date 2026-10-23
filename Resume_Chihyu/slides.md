@@ -92,7 +92,7 @@ layout: default
     <div class="tech-card p-3 bg-gradient-to-r from-slate-900/90 via-slate-900/60 to-cyan-950/40 border-l-4 border-l-cyan-400">
       <div class="text-xs text-cyan-400 font-mono font-bold mb-0.5">CORE MISSION</div>
       <p class="text-[12px] text-slate-100 font-medium leading-relaxed">
-        具備 <span class="text-cyan-300 font-bold">6+ 年軟體研發經驗</span>，深耕軟韌體整合邊界。專精於 <span class="text-cyan-300 font-bold underline decoration-cyan-500/50 underline-offset-4">Compiler Toolchain</span> (編譯器體系/客訴維護/燒錄工具) 與 <span class="text-cyan-300 font-bold underline decoration-cyan-500/50 underline-offset-4">高階應用軟體開發</span> (電競滑鼠全棧 AP、車載 BLE App 及主動筆 Simulator DLL)。同時<span class="text-cyan-300 font-bold underline decoration-cyan-500/50 underline-offset-4">高度專研現代 AI 輔助軟體工程 (Agentic Workflow)</span>，實踐規範驅動開發 (Spec-Driven) 與程式碼架構逆向梳理，兼具底層扎實的軟韌調試功力與現代化研發交付效率。
+        具備 <span class="text-cyan-300 font-bold">6+ 年軟體研發經驗</span>，深耕軟韌體整合邊界。專精於 <span class="text-cyan-300 font-bold underline decoration-cyan-500/50 underline-offset-4">Compiler Toolchain</span> (編譯器體系/客訴維護/燒錄工具) 與 <span class="text-cyan-300 font-bold underline decoration-cyan-500/50 underline-offset-4">高階應用軟體開發</span> (電競滑鼠全棧 AP、車載 BLE App 及主動筆 Simulator DLL)。同時<span class="text-cyan-300 font-bold underline decoration-cyan-500/50 underline-offset-4">高度專研現代 AI 輔助軟體工程 (Agentic Workflow)</span>，實踐規範驅動開發 (Spec-Driven) 與程式碼架構逆向梳理，兼具底層扎實的軟韌偵錯功力與現代化研發交付效率。
       </p>
     </div>
     <!-- 4 Stats Cards (Clean spacing, zero overlap) -->
@@ -123,11 +123,11 @@ layout: default
       <div class="p-2.5 rounded-lg bg-slate-900/60 border border-slate-800">
         <div class="text-xs font-bold text-cyan-400 font-mono mb-0.5">⚡ 軟韌體全棧打通</div>
         <p class="text-[11px] text-slate-400 leading-relaxed">
-          從底層 Driver、自定義 HID/BLE 協定到應用層 UI/UX，實現無縫數據流與低延遲控制。
+          從底層 Driver、自定義 HID/BLE 協定到應用層 UI/UX，實現無縫資料流與低延遲控制。
         </p>
       </div>
       <div class="p-2.5 rounded-lg bg-slate-900/60 border border-slate-800">
-        <div class="text-xs font-bold text-indigo-400 font-mono mb-0.5">🛠️ 深度調試與現代化升級</div>
+        <div class="text-xs font-bold text-indigo-400 font-mono mb-0.5">🛠️ 深度偵錯與現代化升級</div>
         <p class="text-[11px] text-slate-400 leading-relaxed">
           深入 Assembly、C Runtime 與 Linker 底層；主導 Bridge DLL 打通 WinUSB 現代化驅動架構。
         </p>
@@ -181,7 +181,7 @@ layout: default
         </div>
         <div class="bg-slate-900/80 py-1 px-2 rounded border border-slate-800 flex items-center gap-1.5">
           <span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
-          <span class="text-slate-200 font-mono text-[10.5px]">Code Generation (代碼生成)</span>
+          <span class="text-slate-200 font-mono text-[10.5px]">Code Generation (程式碼生成)</span>
         </div>
         <div class="bg-slate-900/80 py-1 px-2 rounded border border-slate-800 flex items-center gap-1.5">
           <span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
@@ -397,7 +397,7 @@ layout: default
 <div class="h-full flex flex-col justify-between py-2.5 px-2">
   <div class="flex items-center justify-between border-b border-slate-800 pb-2">
     <div>
-      <div class="text-xs font-mono text-cyan-400 font-bold tracking-wider">REPRESENTATIVE PROJECT (1/6)</div>
+      <div class="text-xs font-mono text-cyan-400 font-bold tracking-wider">REPRESENTATIVE PROJECT (1/5)</div>
       <h2 class="text-2xl font-bold text-white tracking-tight">eUIDEII 編譯器與工具鏈 (Toolchain)</h2>
     </div>
     <div class="tech-pill text-xs">P. 05 / 11</div>
@@ -468,7 +468,7 @@ layout: default
 <div class="h-full flex flex-col justify-between py-2.5 px-2">
   <div class="flex items-center justify-between border-b border-slate-800 pb-2">
     <div>
-      <div class="text-xs font-mono text-cyan-400 font-bold tracking-wider">REPRESENTATIVE PROJECT (2/6)</div>
+      <div class="text-xs font-mono text-cyan-400 font-bold tracking-wider">REPRESENTATIVE PROJECT (2/5)</div>
       <h2 class="text-2xl font-bold text-white tracking-tight">NuWriter 燒錄軟體</h2>
     </div>
     <div class="tech-pill text-xs">P. 06 / 11</div>
@@ -500,11 +500,11 @@ layout: default
       <div class="grid grid-cols-2 gap-2 text-xs">
         <div class="p-2 rounded bg-red-950/30 border border-red-800/40">
           <div class="text-red-400 font-mono font-bold text-[10.5px] mb-0.5">舊架構痛點</div>
-          <div class="text-slate-300 text-[10px]">VC6 + SiUSBXp 舊驅動，在新系統面臨驅動數位簽章與連線中斷問題。</div>
+          <div class="text-slate-300 text-[10px]">VC6 + SiUSBXp 舊驅動，在新系統面臨連線中斷痛點與相容性限制。</div>
         </div>
         <div class="p-2 rounded bg-emerald-950/30 border border-emerald-800/40">
-          <div class="text-emerald-400 font-mono font-bold text-[10.5px] mb-0.5">Bridge DLL 現代化</div>
-          <div class="text-slate-300 text-[10px]">VS2022 轉接橋接層，直連 WinUSB，免去驅動安裝困擾且效能大幅提升。</div>
+          <div class="text-emerald-400 font-mono font-bold text-[10.5px] mb-0.5">Bridge DLL 現代化 (進行中)</div>
+          <div class="text-slate-300 text-[10px]">VS2022 轉接橋接層已打通核心通訊驗證，目前正推進軟體整合升級至 WinUSB 架構。</div>
         </div>
       </div>
       <!-- Tech Pills with dedicated bottom clearance -->
@@ -552,7 +552,7 @@ layout: default
 <div class="h-full flex flex-col justify-between py-2.5 px-2">
   <div class="flex items-center justify-between border-b border-slate-800 pb-2">
     <div>
-      <div class="text-xs font-mono text-cyan-400 font-bold tracking-wider">REPRESENTATIVE PROJECT (3/6)</div>
+      <div class="text-xs font-mono text-cyan-400 font-bold tracking-wider">REPRESENTATIVE PROJECT (3/5)</div>
       <h2 class="text-2xl font-bold text-white tracking-tight">電競滑鼠高階設定軟體 (AP)</h2>
     </div>
     <div class="tech-pill text-xs">P. 07 / 11</div>
@@ -631,7 +631,7 @@ layout: default
 <div class="h-full flex flex-col justify-between py-2 px-2">
   <div class="flex items-center justify-between border-b border-slate-800 pb-1.5">
     <div>
-      <div class="text-xs font-mono text-cyan-400 font-bold tracking-wider">REPRESENTATIVE PROJECT (4/6)</div>
+      <div class="text-xs font-mono text-cyan-400 font-bold tracking-wider">REPRESENTATIVE PROJECT (4/5)</div>
       <h2 class="text-2xl font-bold text-white tracking-tight">智慧天窗藍牙手機 App (BLE App)</h2>
     </div>
     <div class="tech-pill text-xs">P. 08 / 11</div>
@@ -654,7 +654,7 @@ layout: default
     <!-- Architecture Flow Diagram -->
     <div class="tech-card p-2 bg-slate-900/80 border border-slate-700/60">
       <div class="text-[10px] font-mono font-bold text-cyan-400 mb-1.5 flex items-center justify-between">
-        <span>WIRELESS DATAFLOW ARCHITECTURE / 車載通訊調光鏈路</span>
+        <span>WIRELESS DATAFLOW ARCHITECTURE / 車載通訊調光路徑</span>
         <span class="text-slate-400 font-normal">.NET MAUI ➔ BLE ➔ MCU ➔ PDLC Glass</span>
       </div>
       <div class="grid grid-cols-4 gap-2 text-xs">
@@ -731,7 +731,7 @@ layout: default
 <div class="h-full flex flex-col justify-between py-2.5 px-2">
   <div class="flex items-center justify-between border-b border-slate-800 pb-2">
     <div>
-      <div class="text-xs font-mono text-cyan-400 font-bold tracking-wider">REPRESENTATIVE PROJECT (5/6)</div>
+      <div class="text-xs font-mono text-cyan-400 font-bold tracking-wider">REPRESENTATIVE PROJECT (5/5)</div>
       <h2 class="text-2xl font-bold text-white tracking-tight">主動筆模擬器 (Simulator AP)</h2>
     </div>
     <div class="tech-pill text-xs">P. 09 / 11</div>
@@ -752,7 +752,7 @@ layout: default
           </div>
           <div class="flex items-start gap-2">
             <span class="text-teal-400 font-bold">▸</span>
-            <span>深層封裝暫存器、旗標與指令週期模擬，提供與實體硬體高度一致的執行狀態回饋。</span>
+            <span>建立 IDE 核心偵錯控制層與底層模擬狀態回饋，賦能團隊高效驗證晶片行為。</span>
           </div>
           <div class="flex items-start gap-2">
             <span class="text-cyan-400 font-bold">▸</span>
@@ -764,7 +764,7 @@ layout: default
         <div class="tech-card p-2">
           <div class="text-[11px] text-slate-400 mb-0.5">底層模擬機制</div>
           <div class="text-teal-300 text-base font-bold font-mono">Single Step / Run</div>
-          <div class="text-[10px] text-slate-400 mt-0.5">精確追蹤微指令週期與記憶體異動</div>
+          <div class="text-[10px] text-slate-400 mt-0.5">精確底層模擬與晶片狀態追蹤偵錯機制</div>
         </div>
         <div class="tech-card p-2">
           <div class="text-[11px] text-slate-400 mb-0.5">架構模組</div>
@@ -807,7 +807,7 @@ layout: default
 <div class="h-full flex flex-col justify-between py-2.5 px-2">
   <div class="flex items-center justify-between border-b border-slate-800 pb-2">
     <div>
-      <div class="text-xs font-mono text-emerald-400 font-bold tracking-wider">REPRESENTATIVE PROJECT (6/6)</div>
+      <div class="text-xs font-mono text-emerald-400 font-bold tracking-wider">PERSONAL RESEARCH & PRACTICE / 個人專研實踐</div>
       <h2 class="text-2xl font-bold text-white tracking-tight">現代 AI 工程與 Agentic Workflow 實踐</h2>
     </div>
     <div class="tech-pill text-xs">P. 10 / 11</div>
@@ -817,7 +817,7 @@ layout: default
     <div class="col-span-6 space-y-2">
       <div class="tech-card p-3 border-l-3 border-l-emerald-400">
         <div class="text-xs font-mono text-emerald-400 font-bold mb-0.5">SPEC-DRIVEN & AI PARADIGM</div>
-        <h3 class="text-sm font-bold text-white mb-1.5">規範驅動開發與 Agentic 協同閉環</h3>
+        <h3 class="text-sm font-bold text-white mb-1.5">規範驅動開發與 Agentic 協同閉迴路</h3>
         <div class="space-y-1.5 text-xs text-slate-300">
           <div class="flex items-start gap-2">
             <span class="text-emerald-400 font-bold">▸</span>
@@ -825,11 +825,11 @@ layout: default
           </div>
           <div class="flex items-start gap-2">
             <span class="text-cyan-400 font-bold">▸</span>
-            <span><strong>程式庫語意圖譜 (Semantic CodeGraph)</strong>：透過 AST 符號拓撲與動態分發調用鏈分析，毫秒級逆向梳理龐大開源與遺留代碼庫架構。</span>
+            <span><strong>程式庫語意圖譜 (Semantic CodeGraph)</strong>：透過 AST 符號拓撲與動態分派呼叫鏈分析，逆向梳理龐大開源與大型程式碼庫架構。</span>
           </div>
           <div class="flex items-start gap-2">
             <span class="text-indigo-400 font-bold">▸</span>
-            <span><strong>AI 架構審查與盲點推演</strong>：在需求落地前主動模擬 Corner Case 與並發競態 (Race Conditions)，建立嚴密驗證防線。</span>
+            <span><strong>AI 架構審查與盲點推演</strong>：在需求落地前主動模擬 Corner Case 與併發競態 (Race Conditions)，建立嚴密驗證防線。</span>
           </div>
         </div>
       </div>
@@ -837,7 +837,7 @@ layout: default
         <div class="tech-card p-2">
           <div class="text-[11px] text-slate-400 mb-0.5">規格對齊效能</div>
           <div class="text-emerald-300 text-base font-bold font-mono">Zero Ambiguity</div>
-          <div class="text-[10px] text-slate-400 mt-0.5">實作前化解 90% 規格歧義與邊界漏洞</div>
+          <div class="text-[10px] text-slate-400 mt-0.5">以規格先行消除語意歧義與邊界漏洞，確保實作對齊架構約束</div>
         </div>
         <div class="tech-card p-2">
           <div class="text-[11px] text-slate-400 mb-0.5">逆向調研提速</div>
@@ -859,7 +859,7 @@ layout: default
       <div class="tech-card p-2.5 bg-slate-900/90 border border-slate-700/60 shadow-xl space-y-1.5">
         <div class="text-[10px] font-mono font-bold text-emerald-400 flex items-center justify-between border-b border-slate-800 pb-1">
           <span>AGENTIC CLOSED-LOOP PIPELINE</span>
-          <span class="text-slate-400 font-normal">規範驅動 ➔ 語意圖譜 ➔ 智能審查閉環</span>
+          <span class="text-slate-400 font-normal">規範驅動 ➔ 語意圖譜 ➔ 智慧審查閉迴路</span>
         </div>
         <!-- Step 1 -->
         <div class="p-1.5 rounded bg-slate-950/70 border border-emerald-500/30 flex items-center gap-2.5">
@@ -882,7 +882,7 @@ layout: default
           <div class="w-5 h-5 rounded bg-indigo-500/20 text-indigo-400 font-mono text-[10px] flex items-center justify-center font-bold flex-shrink-0">03</div>
           <div class="text-xs">
             <div class="font-bold text-slate-100 text-[10.5px]">Agentic Loop 執行與精準生成</div>
-            <div class="text-[9.5px] text-slate-400">在嚴格規格約束下執行代碼實現，自動執行單元測試確保向後相容</div>
+            <div class="text-[9.5px] text-slate-400">在嚴格規格約束下執行程式碼實作，確保符合架構約制與高品質交付</div>
           </div>
         </div>
         <!-- Step 4 -->
@@ -890,7 +890,7 @@ layout: default
           <div class="w-5 h-5 rounded bg-teal-500/20 text-teal-400 font-mono text-[10px] flex items-center justify-center font-bold flex-shrink-0">04</div>
           <div class="text-xs">
             <div class="font-bold text-slate-100 text-[10.5px]">AI 盲點推演與邊界回歸審查</div>
-            <div class="text-[9.5px] text-slate-400">多視角自動審查極端例外狀態，形成端到端高可靠度的研發閉環</div>
+            <div class="text-[9.5px] text-slate-400">多視角自動審查極端例外狀態，形成端到端高可靠度的研發閉迴路</div>
           </div>
         </div>
       </div>
